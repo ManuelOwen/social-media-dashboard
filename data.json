@@ -1,0 +1,75 @@
+{
+    "totalFollowers": 23004,
+    "cards": [
+        {
+            "type": "facebook",
+            "icon": "./images/icon-facebook.svg",
+            "platform": "Facebook",
+            "username": "nathanf",
+            "followers": 1987,
+            "changeIcon": "./images/icon-up.svg",
+            "change": 12
+        },
+        {
+            "type": "twitter",
+            "icon": "./images/icon-twitter.svg",
+            "platform": "Twitter",
+            "username": "twitter",
+            "followers": 1044,
+            "changeIcon": "./images/icon-up.svg",
+            "change": 99
+        },
+        {
+            "type": "instagram",
+            "icon": "./images/icon-instagram.svg",
+            "platform": "Instagram",
+            "username": "instagram",
+            "followers": "11k",
+            "changeIcon": "./images/icon-up.svg",
+            "change": 1099
+        },
+        {
+            "type": "youtube",
+            "icon": "./images/icon-youtube.svg",
+            "platform": "YouTube",
+            "username": "youtube",
+            "followers": 8239,
+            "changeIcon": "./images/icon-down.svg",
+            "change": -144
+        }
+    ],
+    "miniCards": [
+        {
+            "title": "Page views",
+            "icon": "./images/icon-facebook.svg",
+            "platform": "Facebook",
+            "number": 87,
+            "changeIcon": "./images/icon-up.svg",
+            "percentage": 3
+        },
+        {
+            "title": "Likes",
+            "icon": "./images/icon-facebook.svg",
+            "platform": "Facebook",
+            "number": 52,
+            "changeIcon": "./images/icon-down.svg",
+            "percentage": -2
+        },
+        {
+            "title": "Likes",
+            "icon": "./images/icon-instagram.svg",
+            "platform": "Instagram",
+            "number": 5462,
+            "changeIcon": "./images/icon-up.svg",
+            "percentage": 2257
+        },
+        {
+            "title": "Page views",
+            "icon": "./images/icon-instagram.svg",
+            "platform": "Instagram",
+            "number": "52k",
+            "changeIcon": "./images/icon-up.svg",
+            "percentage": 1375
+        }
+    ]
+}

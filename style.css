@@ -1,0 +1,223 @@
+
+
+ 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body.dark-theme {
+    background-color: rgb(42, 39, 39);
+    color: white;
+}
+
+body.light-theme {
+    background-color: rgb(246, 240, 240);
+    color: black;
+}
+
+
+#theme-toggle {
+    height: 40px;
+    width: 100px;
+    margin-left: 800px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+
+h1 {
+    margin-left: 160px;
+}
+
+.switch {
+    color: aliceblue;
+}
+
+.foll {
+    font-weight: 600;
+    margin-left: 160px;
+}
+
+
+.card-overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    background-color: auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    flex: 1 1 22%;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 10px 0 rgba(156, 146, 146, 0.5);
+    /* border-top: 4px solid rgb(50, 122, 205); */
+    transition: background-color 0.5s, color 0.5s;
+}
+.card.instagram {
+    border-top: 4px solid #f5611d;
+}
+.card.facebook {
+    border-top: 4px solid #3b5998;
+}
+.card.twitter {
+    border-top: 4px solid #1da1f2;
+}
+.card.youtube {
+    border-top: 4px solid #ff0000;
+}
+
+.card.light-theme {
+    background-color: rgb(246, 240, 240);
+    color: black;
+}
+
+.card.dark-theme {
+    background-color: rgb(42, 39, 39);
+    color: white;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.card-header p {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    margin: 0 10px;
+}
+
+.card-body h2 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+.count {
+    color: lightgreen;
+}
+
+.coun {
+    color: red;
+}
+
+.today {
+    margin-left: 160px;
+}
+
+
+.card-two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.card1 {
+    background-color: auto;
+    color: auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    flex: 1 1 22%;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 10px 0 rgba(156, 146, 146, 0.5);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.card1:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.card1.light-theme {
+    background-color: rgb(246, 240, 240);
+    color: black;
+}
+
+.card1.dark-theme {
+    background-color: rgb(42, 39, 39);
+    color: white;
+}
+
+
+
+
+
+.card1-header p {
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card1-body {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    margin: 0 50px;
+}
+
+
+.fig {
+    margin: 0 50px;
+    color: limegreen;
+}
+
+.figu {
+    margin: 0 50px;
+    color: red;
+}
+
+
+.icon, .sign, .icn {
+    height: 10px;
+}
+
+.icon {
+    margin: 0 30px;
+}
+
+.sign {
+    margin: 0 20px;
+}
+
+.icn {
+    margin: 0 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card, .card1 {
+        flex: 1 1 100%;
+    }
+}
+
